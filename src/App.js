@@ -44,34 +44,39 @@ function Navbar() {
 	);
 }
 
+function DemoCard1() {
+	return (
+		<React.Fragment>
+			<Card>
+				<CardActionArea>
+					<CardMedia image="/static/images/cards/contemplative-reptile.jpg" title="Contemplative Reptile" />
+					<CardContent>
+						<Typography gutterBottom variant="h5" component="h2">
+							Lizard
+						</Typography>
+						<Typography component="p">
+							Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across
+							all continents except Antarctica
+						</Typography>
+					</CardContent>
+				</CardActionArea>
+				<CardActions>
+					<Button size="small" color="primary">
+						Learn More
+					</Button>
+				</CardActions>
+			</Card>
+		</React.Fragment>
+	);
+}
+
 function renderProjectCards() {
 	return (
 		<React.Fragment>
 			<Grid container spacing={24} justify="center" alignItems="center">
 				{Navbar()}
 				<Grid item xs={6}>
-					<Card>
-						<CardActionArea>
-							<CardMedia
-								image="/static/images/cards/contemplative-reptile.jpg"
-								title="Contemplative Reptile"
-							/>
-							<CardContent>
-								<Typography gutterBottom variant="h5" component="h2">
-									Lizard
-								</Typography>
-								<Typography component="p">
-									Lizards are a widespread group of squamate reptiles, with over 6,000 species,
-									ranging across all continents except Antarctica
-								</Typography>
-							</CardContent>
-						</CardActionArea>
-						<CardActions>
-							<Button size="small" color="primary">
-								Learn More
-							</Button>
-						</CardActions>
-					</Card>
+					{DemoCard1()}
 				</Grid>
 
 				<Grid item xs={6}>
