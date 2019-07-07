@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
@@ -19,7 +18,6 @@ import { Link } from 'react-router-dom';
 import TestComp from './components/TestComp';
 import Boof from './components/Boof';
 import ProjectPage from './components/ProjectPage';
-// import Route from 'react-router-dom/Route';
 
 function Meow() {
 	return (
@@ -38,7 +36,6 @@ function nav() {
 }
 
 function renderProjectCards() {
-	console.log('render project cards called');
 	return (
 		<React.Fragment>
 			<Grid container spacing={24} justify="center" alignItems="center">
