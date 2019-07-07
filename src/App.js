@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import Boof from './components/Boof';
+import ProjectPage from './components/ProjectPage';
 import Navbar from './components/Navbar';
 
 function Meow() {
@@ -65,7 +65,7 @@ function DemoCard2() {
 					</CardContent>
 				</CardActionArea>
 				<CardActions>
-					<Link to="/home">Boof</Link>
+					<Link to="/home">Project 1</Link>
 				</CardActions>
 			</Card>
 		</React.Fragment>
@@ -113,7 +113,7 @@ function App() {
 			<div className="App">{/* <header className="App-header" /> */}</div>
 
 			<Route exact path="/" component={renderProjectCards} />
-			<Route exact path="/home" component={Boof} />
+			<Route exact path="/home" component={ProjectPage} />
 		</Router>
 	);
 }
