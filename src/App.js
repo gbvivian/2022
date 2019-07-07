@@ -14,15 +14,96 @@ import MenuIcon from '@material-ui/core/MenuItem';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Swithc, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import TestComp from './components/TestComp';
 import Boof from './components/Boof';
+import ProjectPage from './components/ProjectPage';
 // import Route from 'react-router-dom/Route';
 
 function Meow() {
 	return (
 		<React.Fragment>
 			<h1>meow</h1>
+		</React.Fragment>
+	);
+}
+
+function nav() {
+	return (
+		<React.Fragment>
+			<h2> navbar navbar navbar navbar</h2>
+		</React.Fragment>
+	);
+}
+
+function renderProjectCards() {
+	console.log('render project cards called');
+	return (
+		<React.Fragment>
+			<Grid container spacing={24} justify="center" alignItems="center">
+				<React.Fragment>
+					<AppBar position="static" color="default">
+						<Toolbar>
+							<IconButton color="inherit" aria-label="Menu">
+								<MenuIcon />
+							</IconButton>
+							<Typography variant="h6" color="inherit">
+								VL
+							</Typography>
+							{/* <Button color="inherit">Login</Button> */}
+						</Toolbar>
+					</AppBar>
+				</React.Fragment>
+
+				<Grid item xs={6}>
+					<Card>
+						<CardActionArea>
+							<CardMedia
+								image="/static/images/cards/contemplative-reptile.jpg"
+								title="Contemplative Reptile"
+							/>
+							<CardContent>
+								<Typography gutterBottom variant="h5" component="h2">
+									Lizard
+								</Typography>
+								<Typography component="p">
+									Lizards are a widespread group of squamate reptiles, with over 6,000 species,
+									ranging across all continents except Antarctica
+								</Typography>
+							</CardContent>
+						</CardActionArea>
+						<CardActions>
+							<Button size="small" color="primary">
+								Learn More
+							</Button>
+						</CardActions>
+					</Card>
+				</Grid>
+
+				<Grid item xs={6}>
+					<Card>
+						<CardActionArea>
+							<CardMedia
+								image="/static/images/cards/contemplative-reptile.jpg"
+								title="Contemplative Reptile"
+							/>
+							<CardContent>
+								<Typography gutterBottom variant="h5" component="h2">
+									Lizard
+								</Typography>
+								<Typography component="p">
+									Lizards are a widespread group of squamate reptiles, with over 6,000 species,
+									ranging across all continents except Antarctica
+								</Typography>
+							</CardContent>
+						</CardActionArea>
+						<CardActions>
+							<Link to="/home">Boof</Link>
+						</CardActions>
+					</Card>
+				</Grid>
+			</Grid>
 		</React.Fragment>
 	);
 }
@@ -48,81 +129,9 @@ function App() {
 
 	return (
 		<Router>
-			<div className="App">
-				{/* <header className="App-header" /> */}
-				<Route path="/" exact strict render={() => <TestComp />} />
-				<Route path="/meow" exact strict render={() => <Meow />} />
-				<Route path="/boof" exact strict render={() => <Boof />} />
-				<Grid container spacing={24} justify="center" alignItems="center">
-					<React.Fragment>
-						<AppBar position="static" color="default">
-							<Toolbar>
-								<IconButton color="inherit" aria-label="Menu">
-									<MenuIcon />
-								</IconButton>
-								<Typography variant="h6" color="inherit">
-									VL
-								</Typography>
-								{/* <Button color="inherit">Login</Button> */}
-							</Toolbar>
-						</AppBar>
-					</React.Fragment>
-
-					<Grid item xs={6}>
-						<Card>
-							<CardActionArea>
-								<CardMedia
-									image="/static/images/cards/contemplative-reptile.jpg"
-									title="Contemplative Reptile"
-								/>
-								<CardContent>
-									<Typography gutterBottom variant="h5" component="h2">
-										Lizard
-									</Typography>
-									<Typography component="p">
-										Lizards are a widespread group of squamate reptiles, with over 6,000 species,
-										ranging across all continents except Antarctica
-									</Typography>
-								</CardContent>
-							</CardActionArea>
-							<CardActions>
-								<Button size="small" color="primary">
-									Learn More
-								</Button>
-							</CardActions>
-						</Card>
-					</Grid>
-
-					<Grid item xs={6}>
-						<Card>
-							<CardActionArea>
-								<CardMedia
-									image="/static/images/cards/contemplative-reptile.jpg"
-									title="Contemplative Reptile"
-								/>
-								<CardContent>
-									<Typography gutterBottom variant="h5" component="h2">
-										Lizard
-									</Typography>
-									<Typography component="p">
-										Lizards are a widespread group of squamate reptiles, with over 6,000 species,
-										ranging across all continents except Antarctica
-									</Typography>
-								</CardContent>
-							</CardActionArea>
-							<CardActions>
-								<Button size="small" color="primary">
-									Learn More
-								</Button>
-							</CardActions>
-						</Card>
-					</Grid>
-
-					{/* <Grid item xs={12}>
-					test
-				</Grid> */}
-				</Grid>
-			</div>
+			<div className="App">{/* <header className="App-header" /> */}</div>
+			<Route exact path="/" component={renderProjectCards} />
+			<Route exact path="/home" component={Boof} />
 		</Router>
 	);
 }
