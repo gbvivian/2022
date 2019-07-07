@@ -27,10 +27,19 @@ function Meow() {
 	);
 }
 
-function nav() {
+function Navbar() {
 	return (
 		<React.Fragment>
-			<h2> navbar navbar navbar navbar</h2>
+			<AppBar position="static" color="default">
+				<Toolbar>
+					<IconButton color="inherit" aria-label="Menu">
+						<MenuIcon />
+					</IconButton>
+					<Typography variant="h6" color="inherit">
+						VL
+					</Typography>
+				</Toolbar>
+			</AppBar>
 		</React.Fragment>
 	);
 }
@@ -39,20 +48,7 @@ function renderProjectCards() {
 	return (
 		<React.Fragment>
 			<Grid container spacing={24} justify="center" alignItems="center">
-				<React.Fragment>
-					<AppBar position="static" color="default">
-						<Toolbar>
-							<IconButton color="inherit" aria-label="Menu">
-								<MenuIcon />
-							</IconButton>
-							<Typography variant="h6" color="inherit">
-								VL
-							</Typography>
-							{/* <Button color="inherit">Login</Button> */}
-						</Toolbar>
-					</AppBar>
-				</React.Fragment>
-
+				{Navbar()}
 				<Grid item xs={6}>
 					<Card>
 						<CardActionArea>
@@ -127,6 +123,7 @@ function App() {
 	return (
 		<Router>
 			<div className="App">{/* <header className="App-header" /> */}</div>
+
 			<Route exact path="/" component={renderProjectCards} />
 			<Route exact path="/home" component={Boof} />
 		</Router>
