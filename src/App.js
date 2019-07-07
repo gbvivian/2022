@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -8,38 +7,17 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/core/MenuItem';
-import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
-import { BrowserRouter as Router, Swithc, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import TestComp from './components/TestComp';
 import Boof from './components/Boof';
-import ProjectPage from './components/ProjectPage';
+import Navbar from './components/Navbar';
 
 function Meow() {
 	return (
 		<React.Fragment>
 			<h1>meow</h1>
-		</React.Fragment>
-	);
-}
-
-function Navbar() {
-	return (
-		<React.Fragment>
-			<AppBar position="static" color="default">
-				<Toolbar>
-					<IconButton color="inherit" aria-label="Menu">
-						<MenuIcon />
-					</IconButton>
-					<Typography variant="h6" color="inherit">
-						VL
-					</Typography>
-				</Toolbar>
-			</AppBar>
 		</React.Fragment>
 	);
 }
