@@ -1,6 +1,8 @@
 import AppBar from '@material-ui/core/AppBar';
 import IconButton from '@material-ui/core/IconButton';
+import { Link } from 'react-router-dom';
 import MenuIcon from '@material-ui/core/MenuItem';
+import MyLogo from './MyLogo';
 import React from 'react';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -13,9 +15,7 @@ export default function Navbar() {
 					<IconButton color="inherit" aria-label="Menu">
 						<MenuIcon />
 					</IconButton>
-					<Typography variant="h6" color="inherit">
-						VL
-					</Typography>
+					<Link to="/">VL</Link>
 				</Toolbar>
 			</AppBar>
 		</React.Fragment>
