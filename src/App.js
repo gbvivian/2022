@@ -14,6 +14,8 @@ import { Link } from 'react-router-dom';
 import ProjectPage from './components/ProjectPage';
 import Navbar from './components/Navbar';
 
+import Project1Img from './assets/Project1_Img.jpg';
+
 function Meow() {
 	return (
 		<React.Fragment>
@@ -89,6 +91,24 @@ function renderProjectCards() {
 	);
 }
 
+function ProjectCard() {
+	return (
+		<React.Fragment>
+			<div className="w-full sm:w-5/12 m-10 sm:m-6 overflow-hidden">
+				<div className="image">
+					<img className="w-full" src={Project1Img} alt="Sunset in the mountains" />
+				</div>
+				<div className="px-6 py-4 bg-white">
+					<div className="font-bold text-xl mb-2 ">The Coldest Sunset</div>
+					<p className="text-gray-700 text-base">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
+						perferendis eaque, exercitationem praesentium nihil.
+					</p>
+				</div>
+			</div>
+		</React.Fragment>
+	);
+}
 function App() {
 	// const styles = {
 	// 	menuButton: {
@@ -110,10 +130,15 @@ function App() {
 
 	return (
 		<Router>
-			<div className="App">{/* <header className="App-header" /> */}</div>
-
-			<Route exact path="/" component={renderProjectCards} />
-			<Route exact path="/home" component={ProjectPage} />
+			<div id="app" className="bg-blue-100">
+				{/* <Route exact path="/" component={renderProjectCards} />
+			<Route exact path="/home" component={ProjectPage} /> */}
+				<div className="App">{/* <header className="App-header" /> */}</div>
+				<div className="flex flex-wrap justify-center">
+					<ProjectCard />
+					<ProjectCard />
+				</div>
+			</div>
 		</Router>
 	);
 }
