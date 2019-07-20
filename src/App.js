@@ -140,7 +140,6 @@ function App() {
 				{/* <Route exact path="/" component={renderProjectCards} /> */}
 
 				{/* <Route exact path="/home" component={ProjectPage} /> */}
-				<div className="App">{/* <header className="App-header" /> */}</div>
 				<div className="flex flex-wrap justify-center">
 					<Route exact path="/proj" component={ProjectCard()} />
 					<ProjectCard />
