@@ -15,6 +15,7 @@ import ProjectPage from './components/ProjectPage';
 import Navbar from './components/Navbar';
 
 import Project1Img from './assets/Project1_Img.jpg';
+import HomePage from './components/HomePage';
 
 function Meow() {
 	return (
@@ -91,24 +92,6 @@ function renderProjectCards() {
 	);
 }
 
-function ProjectCard() {
-	return (
-		<React.Fragment>
-			<div className="w-full sm:w-5/12 m-10 sm:m-6 overflow-hidden">
-				<Link to="/proj">
-					<div className="image">
-						<img className="w-full" to="/proj" src={Project1Img} alt="Project Image" />
-					</div>
-					Project
-				</Link>
-				<p className="text-gray-700 text-base">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-					perferendis eaque, exercitationem praesentium nihil.
-				</p>
-			</div>
-		</React.Fragment>
-	);
-}
 function App() {
 	// const styles = {
 	// 	menuButton: {
@@ -132,9 +115,10 @@ function App() {
 		<Router>
 			<div id="app" className="bg-blue-100">
 				<div className="flex flex-wrap justify-center">
-					<Route exact path="/proj" component={ProjectCard()} />
-					<ProjectCard />
-					<ProjectCard />
+					{/* <Route exact path="/proj" component={ProjectCard()} /> */}
+
+					<Route exact path="/" component={HomePage} />
+					<Route exact path="/proj" component={ProjectPage} />
 				</div>
 			</div>
 		</Router>
