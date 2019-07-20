@@ -95,17 +95,13 @@ function ProjectCard() {
 	return (
 		<React.Fragment>
 			<div className="w-full sm:w-5/12 m-10 sm:m-6 overflow-hidden">
-				{/* <div className="image">
-					<img className="w-full" to="/proj" src={Project1Img} alt="Sunset in the mountains" />
-				</div> */}
 				<div className="px-6 py-4 bg-white">
 					<Link to="/proj">
 						Project
 						<div className="image">
-							<img className="w-full" to="/proj" src={Project1Img} alt="Sunset in the mountains" />
+							<img className="w-full" to="/proj" src={Project1Img} alt="Project Image" />
 						</div>
 					</Link>
-					{/* <div className="font-bold text-xl mb-2 ">The Coldest Sunset</div> */}
 					<p className="text-gray-700 text-base">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
 						perferendis eaque, exercitationem praesentium nihil.
@@ -137,9 +133,6 @@ function App() {
 	return (
 		<Router>
 			<div id="app" className="bg-blue-100">
-				{/* <Route exact path="/" component={renderProjectCards} /> */}
-
-				{/* <Route exact path="/home" component={ProjectPage} /> */}
 				<div className="flex flex-wrap justify-center">
 					<Route exact path="/proj" component={ProjectCard()} />
 					<ProjectCard />
