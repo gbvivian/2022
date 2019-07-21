@@ -91,13 +91,6 @@ function renderProjectCards() {
 }
 
 function App() {
-	// const styles = {
-	// 	menuButton: {
-	// 		marginLeft: -12,
-	// 		marginRight: 20
-	// 	}
-	// };
-
 	const BrowserRouter = require('react-router-dom').BrowserRouter;
 	const Route = require('react-router-dom').Route;
 	const Link = require('react-router-dom').Link;
