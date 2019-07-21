@@ -8,13 +8,11 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import { withStyles } from '@material-ui/core/styles';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import ProjectPage from './components/ProjectPage';
 import Navbar from './components/Navbar';
 
-import Project1Img from './assets/Project1_Img.jpg';
 import HomePage from './components/HomePage';
 
 function Meow() {
@@ -112,7 +110,7 @@ function App() {
 	};
 
 	return (
-		<Router>
+		<Router basename="/">
 			<div id="app" className="bg-blue-100">
 				<Navbar />
 				<Route exact path="/" component={HomePage} />
