@@ -10,7 +10,7 @@ const ProjectCard = () => {
 					<div className="image">
 						<img className="w-full" to="/proj" src={Project1Img} alt="Project" />
 					</div>
-					Project
+					<div className="hover:underline text-3xl">Project</div>
 				</Link>
 				<p className="text-gray-700 text-base">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
