@@ -114,12 +114,10 @@ function App() {
 	return (
 		<Router>
 			<div id="app" className="bg-blue-100">
-				<div className="flex flex-wrap justify-center">
-					{/* <Route exact path="/proj" component={ProjectCard()} /> */}
-
-					<Route exact path="/" component={HomePage} />
-					<Route exact path="/proj" component={ProjectPage} />
-				</div>
+				<Navbar />
+				<Route exact path="/" component={HomePage} />
+				<Route exact path="/proj" component={ProjectPage} />
+				<Route exact path="/about" component={() => <div>About</div>} />
 			</div>
 		</Router>
 	);
