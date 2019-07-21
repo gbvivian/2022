@@ -25,7 +25,7 @@ export default function Navbar() {
 						Resume
 					</a>
 					<Link to="/about" className="block mt-4 mr-4 lg:inline-block lg:mt-0 hover:text-gray-500">
-						About me
+						About
 					</Link>
 				</div>
 			</nav>
