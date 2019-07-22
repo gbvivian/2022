@@ -1,5 +1,4 @@
 import React from 'react';
-import MyLogo from './MyLogo';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
