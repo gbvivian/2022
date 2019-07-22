@@ -8,8 +8,8 @@ const HomePage = () => {
 				<div className="text-3xl md:ml-8">Hi! My name is Vivian.</div>
 			</div>
 			<div className="flex flex-wrap justify-center">
-				<ProjectCard />
-				<ProjectCard />
+				<ProjectCard projectName="Project 1" />
+				<ProjectCard projectName="Project 2" />
 			</div>
 		</React.Fragment>
 	);
