@@ -4,7 +4,9 @@ import ProjectCard from '../components/ProjectCard';
 const HomePage = () => {
 	return (
 		<React.Fragment>
-            <div className="text-3xl sm:w-5/12 m-10 sm:m-6">Hi! My name is Vivian.</div>
+			<div className="sm:w-5/12 sm:m-6">
+				<div className="text-3xl md:ml-8">Hi! My name is Vivian.</div>
+			</div>
 			<div className="flex flex-wrap justify-center">
 				<ProjectCard />
 				<ProjectCard />
