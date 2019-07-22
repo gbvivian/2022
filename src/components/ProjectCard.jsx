@@ -12,10 +12,6 @@ const ProjectCard = () => {
 					</div>
 					<div className="hover:underline text-3xl">Project</div>
 				</Link>
-				<p className="text-gray-700 text-base">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-					perferendis eaque, exercitationem praesentium nihil.
-				</p>
 			</div>
 		</React.Fragment>
 	);
