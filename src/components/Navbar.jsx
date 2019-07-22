@@ -8,7 +8,7 @@ export default function Navbar() {
 			<nav className="flex items-center justify-between flex-wrap p-6 text-gray-900">
 				<div className="flex items-center flex-shrink-0 mr-6">
 					<Link to="/">
-						<span className="font-semibold text-2xl tracking-tight">Vivian Lam</span>
+						<span className="font-semibold text-2xl tracking-tight md:ml-8">Vivian Lam</span>
 					</Link>
 				</div>
 				<div className="block lg:hidden">
@@ -21,7 +21,10 @@ export default function Navbar() {
 				</div>
 
 				<div className="w-full block flex-grow lg:flex lg:flex-row-reverse lg:items-center lg:w-auto">
-					<a href="/Resume-Vivian-Lam.pdf" className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-500">
+					<a
+						href="/portfolio-2019/Resume-Vivian-Lam.pdf"
+						className="block mt-4 md:mr-8 lg:inline-block lg:mt-0 hover:text-gray-500"
+					>
 						Resume
 					</a>
 					<Link to="/about" className="block mt-4 mr-4 lg:inline-block lg:mt-0 hover:text-gray-500">
