@@ -104,7 +104,7 @@ function App() {
 
 	return (
 		<Router basename="/">
-			<div id="app" className="bg-blue-100">
+			<div id="app">
 				<Navbar />
 				<Route exact path="/" component={HomePage} />
 				<Route exact path="/proj" component={ProjectPage} />
