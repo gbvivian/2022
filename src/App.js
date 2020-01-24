@@ -11,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import ProjectPage from './components/ProjectPage';
+import Project2Page from './components/project-pages/Project2Page';
 import Navbar from './components/Navbar';
 
 import HomePage from './components/HomePage';
@@ -114,7 +115,7 @@ function App() {
         <Navbar />
         <Route exact path="/" component={HomePage} />
         <Route exact path="/proj1" component={ProjectPage} />
-        <Route exact path="/proj2" component={ProjectPage} />
+        <Route exact path="/proj2" component={Project2Page} />
 
         <Route exact path="/about" component={() => <div>About</div>} />
       </div>
