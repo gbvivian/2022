@@ -11,7 +11,17 @@ export default function Project1Page() {
 
         <div className="flex flex-col md:mx-64">
           <p className="text-6xl mb-12">Shopify Internship 2020</p>
+
+          <img
+            className="mb-12"
+            src={challenge}
+            alt="challenge"
+            height="154"
+            width="371"
+          />
+
           <div className="text-4xl font-semibold">Challenge</div>
+
           <div className="text-2xl mb-8">
             When a user enters a discount code that gives free shipping, the
             information is reflected in the&nbsp;
@@ -40,7 +50,12 @@ export default function Project1Page() {
           </div>
 
           <div className="text-4xl font-semibold">Solution</div>
-          <img src={discount_refactor_demo} alt="Discount refactor demo" />
+          <img
+            src={discount_refactor_demo}
+            alt="Discount refactor demo"
+            height="154"
+            width="371"
+          />
         </div>
       </div>
     </React.Fragment>
