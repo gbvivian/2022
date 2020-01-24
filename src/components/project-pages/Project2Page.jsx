@@ -11,7 +11,7 @@ export default function Project2Page() {
           <p className="text-6xl">Dropwatch</p>
 
           {/* bold */}
-          <div className="text-2xl">Problem</div>
+          <div className="text-4xl font-semibold">Problem</div>
           <div className="text-2xl mb-8">
             1. Customers who are loyal to certain Shopify stores want to
             know&nbsp;
@@ -25,13 +25,13 @@ export default function Project2Page() {
           </div>
 
           {/* add spacing */}
-          <div className="text-2xl mb-8 mb-8">
+          <div className="text-2xl mb-8">
             Currently, merchants - the sellers of the stores, can send out
             newsletters to let their email list know when sales are going on.
           </div>
 
           {/* add spacing */}
-          <div className="text-2xl">However</div>
+          <div className="text-4xl font-semibold mb-8">However</div>
 
           {/* add bullet */}
           <div className="text-2xl mb-8">
