@@ -1,5 +1,8 @@
 import React from 'react';
 import Project1Img from '../../assets/Project1_Img.jpg';
+import homepage from '../../assets/project2/home_page.png';
+import lockscreen from '../../assets/project2/notif_lockscreen.png';
+import productPage from '../../assets/project2/product_feature.png';
 
 export default function Project2Page() {
   return (
@@ -67,6 +70,31 @@ export default function Project2Page() {
 
           {/* bold */}
           <div className="text-4xl font-semibold">Solution</div>
+
+          <span className="mb-8">
+            <img
+              className="inline-block"
+              src={homepage}
+              alt="Discount refactor demo"
+              height="109"
+              width="263"
+            />
+            <img
+              className="inline-block"
+              src={lockscreen}
+              alt="Discount refactor demo"
+              height="109"
+              width="263"
+            />
+
+            <img
+              className="inline-block"
+              src={productPage}
+              alt="Discount refactor demo"
+              height="109"
+              width="263"
+            />
+          </span>
 
           <div className="text-2xl mb-8">
             Users of Dropwatch can browse all of their favourite stores (and
