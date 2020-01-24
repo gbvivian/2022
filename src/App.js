@@ -10,7 +10,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import ProjectPage from './components/ProjectPage';
+import Project1Page from './components/project-pages/Project1Page';
 import Project2Page from './components/project-pages/Project2Page';
 import Navbar from './components/Navbar';
 
@@ -114,7 +114,7 @@ function App() {
       <div id="app">
         <Navbar />
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/proj1" component={ProjectPage} />
+        <Route exact path="/proj1" component={Project1Page} />
         <Route exact path="/proj2" component={Project2Page} />
 
         <Route exact path="/about" component={() => <div>About</div>} />
