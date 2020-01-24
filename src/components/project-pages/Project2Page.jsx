@@ -7,7 +7,7 @@ export default function Project2Page() {
       <div className="md:mx-16 md:mt-16">
         <img src={Project1Img} alt="Project" />
 
-        <div className="flex flex-col md:mx-32">
+        <div className="flex flex-col md:mx-64">
           <p className="text-6xl">Dropwatch</p>
 
           {/* bold */}
@@ -31,17 +31,17 @@ export default function Project2Page() {
           </div>
 
           {/* add spacing */}
-          <div className="text-4xl font-semibold mb-8">However</div>
+          <div className="text-4xl font-semibold">However</div>
 
           {/* add bullet */}
           <div className="text-2xl mb-8">
-            - Merchants are busy people and don't always have the bandwidth to
+            Merchants are busy people and don't always have the bandwidth to
             write and send out newsletters
           </div>
 
           {/* add bullet */}
           <div className="text-2xl mb-8">
-            - Newsletters are often lost amidst other emails, and hence, are
+            Newsletters are often lost amidst other emails, and hence, are
             frequently unread. This causes customers to miss out on times when
             their favourite or desired product is on sale
           </div>
@@ -66,7 +66,7 @@ export default function Project2Page() {
           </div>
 
           {/* bold */}
-          <div className="text-2xl">Solution</div>
+          <div className="text-4xl font-semibold">Solution</div>
 
           <div className="text-2xl mb-8">
             Users of Dropwatch can browse all of their favourite stores (and
