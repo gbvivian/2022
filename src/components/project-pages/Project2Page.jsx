@@ -97,8 +97,8 @@ export default function Project2Page() {
           </span>
 
           <div className="text-2xl mb-8">
-            Users of Dropwatch can browse all of their favourite stores (and
-            more) from the comfort of a single app. At product pages, users can
+            Users of Dropwatch can browse all of their favourite stores and more
+            ofrom the comfort of a single app. At product pages, users can
             either choose to add the product to their cart, or they can add the
             product to their drop list and get a push notification for when the
             product's price drops.
