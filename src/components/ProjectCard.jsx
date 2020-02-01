@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Project1Img from '../assets/Project1_Img.jpg';
 
 const ProjectCard = props => {
   return (
@@ -11,7 +10,7 @@ const ProjectCard = props => {
             <img
               className="w-full"
               to={props.projectLink}
-              src={Project1Img}
+              src={props.projectImg}
               alt="Project"
             />
           </div>

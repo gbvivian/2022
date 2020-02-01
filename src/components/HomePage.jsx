@@ -1,5 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
+import shopifySplashScreen from '../assets/project1/shopify_splash_screen.png';
+import placeHolder from '../assets/Project1_Img.jpg';
 
 const HomePage = () => {
   return (
@@ -15,9 +17,14 @@ const HomePage = () => {
         <div className="flex flex-wrap justify-center">
           <ProjectCard
             projectName="Shopify Internship 2020"
+            projectImg={shopifySplashScreen}
             projectLink="/proj1"
           />
-          <ProjectCard projectName="Dropwatch" projectLink="/proj2" />
+          <ProjectCard
+            projectName="Dropwatch"
+            projectImg={placeHolder}
+            projectLink="/proj2"
+          />
         </div>
       </div>
     </React.Fragment>
