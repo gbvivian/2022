@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import shopifySplashScreen from '../assets/project1/shopify_splash_screen.png';
-import placeHolder from '../assets/Project1_Img.jpg';
+import dropWatchSplashScreen from '../assets/project2/dropwatch_splash_screen.png';
 
 const HomePage = () => {
   return (
@@ -22,7 +22,7 @@ const HomePage = () => {
           />
           <ProjectCard
             projectName="Dropwatch"
-            projectImg={placeHolder}
+            projectImg={dropWatchSplashScreen}
             projectLink="/proj2"
           />
         </div>
