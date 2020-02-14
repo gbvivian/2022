@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import shopifySplashScreen from '../assets/project1/shopify_splash_screen.png';
 import dropWatchSplashScreen from '../assets/project2/dropwatch_splash_screen.png';
+import designChallengeSplashScreen from '../assets/project3/design_challenge_splash_screen.png';
 
 const HomePage = () => {
   return (
@@ -23,6 +24,11 @@ const HomePage = () => {
           <ProjectCard
             projectName="Dropwatch"
             projectImg={dropWatchSplashScreen}
+            projectLink="https://medium.com/@gbvivian/dropwatch-bc799f144292"
+          />
+          <ProjectCard
+            projectName="Google Design Challenge 2020"
+            projectImg={designChallengeSplashScreen}
             projectLink="/proj2"
           />
         </div>
