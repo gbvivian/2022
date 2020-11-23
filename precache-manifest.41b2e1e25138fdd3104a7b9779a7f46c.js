@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21ffa097086ed91fdd3ec517b4246c07",
+    "revision": "f14bc0d45ff561532d4d3cf2e2b9abbe",
     "url": "/portfolio-2019/index.html"
   },
   {
-    "revision": "ec15169e18fcea6f3278",
+    "revision": "140c45be5bfb873e816b",
     "url": "/portfolio-2019/static/css/main.385dbd42.chunk.css"
   },
   {
-    "revision": "cea7c21fb79669899205",
-    "url": "/portfolio-2019/static/js/2.8588093d.chunk.js"
+    "revision": "9ef460d6798fd7ae194e",
+    "url": "/portfolio-2019/static/js/2.52a86ff1.chunk.js"
   },
   {
-    "revision": "2e7d2c37866ca6c066224e205e1b0aa3",
-    "url": "/portfolio-2019/static/js/2.8588093d.chunk.js.LICENSE"
+    "revision": "140c45be5bfb873e816b",
+    "url": "/portfolio-2019/static/js/main.e59a916c.chunk.js"
   },
   {
-    "revision": "ec15169e18fcea6f3278",
-    "url": "/portfolio-2019/static/js/main.b380fbb3.chunk.js"
-  },
-  {
-    "revision": "cfab0be9e2f50d9ba905",
-    "url": "/portfolio-2019/static/js/runtime-main.2bb9aa57.js"
+    "revision": "082e7cb3b386e751ce75",
+    "url": "/portfolio-2019/static/js/runtime~main.d36a5cc7.js"
   },
   {
     "revision": "b2f1f0318a0fa53e7b5868fbe766d1af",
@@ -34,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "268a1792abb1864e3d86d8ff6643c0d3",
     "url": "/portfolio-2019/static/media/discount_refactor_demo.268a1792.gif"
+  },
+  {
+    "revision": "2259179a732eb71bb6f348d5137b5f07",
+    "url": "/portfolio-2019/static/media/dropwatch_splash_screen.2259179a.png"
   },
   {
     "revision": "4d9152171e25833723563a03b657debb",
@@ -50,5 +50,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b9e5bf0e782634e748da0871dac1901d",
     "url": "/portfolio-2019/static/media/shopify_splash_screen.b9e5bf0e.png"
+  },
+  {
+    "revision": "829e0bb40613db0480acb583c7f51cae",
+    "url": "/portfolio-2019/static/media/thumbnail_atomic_loans.829e0bb4.png"
+  },
+  {
+    "revision": "421a8a44b99dce155d20d046de2d57f7",
+    "url": "/portfolio-2019/static/media/thumbnail_shop_pay.421a8a44.png"
+  },
+  {
+    "revision": "254be0c6d0d60d0c875543a7bad71093",
+    "url": "/portfolio-2019/static/media/thumbnail_sonic.254be0c6.png"
   }
 ]);

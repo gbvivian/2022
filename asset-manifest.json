@@ -1,29 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio-2019/static/css/main.385dbd42.chunk.css",
-    "main.js": "/portfolio-2019/static/js/main.b380fbb3.chunk.js",
-    "main.js.map": "/portfolio-2019/static/js/main.b380fbb3.chunk.js.map",
-    "runtime-main.js": "/portfolio-2019/static/js/runtime-main.2bb9aa57.js",
-    "runtime-main.js.map": "/portfolio-2019/static/js/runtime-main.2bb9aa57.js.map",
-    "static/js/2.8588093d.chunk.js": "/portfolio-2019/static/js/2.8588093d.chunk.js",
-    "static/js/2.8588093d.chunk.js.map": "/portfolio-2019/static/js/2.8588093d.chunk.js.map",
+    "main.js": "/portfolio-2019/static/js/main.e59a916c.chunk.js",
+    "main.js.map": "/portfolio-2019/static/js/main.e59a916c.chunk.js.map",
+    "runtime~main.js": "/portfolio-2019/static/js/runtime~main.d36a5cc7.js",
+    "runtime~main.js.map": "/portfolio-2019/static/js/runtime~main.d36a5cc7.js.map",
+    "static/js/2.52a86ff1.chunk.js": "/portfolio-2019/static/js/2.52a86ff1.chunk.js",
+    "static/js/2.52a86ff1.chunk.js.map": "/portfolio-2019/static/js/2.52a86ff1.chunk.js.map",
     "index.html": "/portfolio-2019/index.html",
-    "precache-manifest.33bbf22081c26a6d0274501b300fcc04.js": "/portfolio-2019/precache-manifest.33bbf22081c26a6d0274501b300fcc04.js",
+    "precache-manifest.41b2e1e25138fdd3104a7b9779a7f46c.js": "/portfolio-2019/precache-manifest.41b2e1e25138fdd3104a7b9779a7f46c.js",
     "service-worker.js": "/portfolio-2019/service-worker.js",
     "static/css/main.385dbd42.chunk.css.map": "/portfolio-2019/static/css/main.385dbd42.chunk.css.map",
-    "static/js/2.8588093d.chunk.js.LICENSE": "/portfolio-2019/static/js/2.8588093d.chunk.js.LICENSE",
     "static/media/Project1_Img.jpg": "/portfolio-2019/static/media/Project1_Img.b2f1f031.jpg",
     "static/media/challenge.png": "/portfolio-2019/static/media/challenge.1060fbc9.png",
     "static/media/discount_refactor_demo.gif": "/portfolio-2019/static/media/discount_refactor_demo.268a1792.gif",
+    "static/media/dropwatch_splash_screen.png": "/portfolio-2019/static/media/dropwatch_splash_screen.2259179a.png",
     "static/media/home_page.png": "/portfolio-2019/static/media/home_page.4d915217.png",
     "static/media/notif_lockscreen.png": "/portfolio-2019/static/media/notif_lockscreen.1b9df695.png",
     "static/media/product_feature.png": "/portfolio-2019/static/media/product_feature.82c3bcf3.png",
-    "static/media/shopify_splash_screen.png": "/portfolio-2019/static/media/shopify_splash_screen.b9e5bf0e.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.2bb9aa57.js",
-    "static/js/2.8588093d.chunk.js",
-    "static/css/main.385dbd42.chunk.css",
-    "static/js/main.b380fbb3.chunk.js"
-  ]
+    "static/media/shopify_splash_screen.png": "/portfolio-2019/static/media/shopify_splash_screen.b9e5bf0e.png",
+    "static/media/thumbnail_atomic_loans.png": "/portfolio-2019/static/media/thumbnail_atomic_loans.829e0bb4.png",
+    "static/media/thumbnail_shop_pay.png": "/portfolio-2019/static/media/thumbnail_shop_pay.421a8a44.png",
+    "static/media/thumbnail_sonic.png": "/portfolio-2019/static/media/thumbnail_sonic.254be0c6.png"
+  }
 }
