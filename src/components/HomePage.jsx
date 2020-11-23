@@ -13,10 +13,9 @@ const HomePage = () => {
   return (
     <React.Fragment>
       <div className="flex flex-col md:mx-20">
-        <div className="sm:w-5/12 sm:m-6">
-          <div className="text-3xl md:ml-8">
-            Hi! My name is Vivian. Currently, I'm designing at&nbsp;
-            <span className="font-semibold">Shopify</span>. I study Cognitive
+        <div className="sm:w-7/12 sm:m-6">
+          <div className="text-2xl md:ml-6">
+              Hi! My name is Vivian🌻 I'm a product designer who loves to ideate and develop for all audiences. I study Cognitive
             Systems and Computer Science at UBC.
           </div>
         </div>
