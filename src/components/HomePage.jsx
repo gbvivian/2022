@@ -16,11 +16,11 @@ const HomePage = () => {
           </div>
         </div>
         <div className="flex flex-wrap justify-center">
-          <ProjectCard
+          {/* <ProjectCard
             projectName="Shopify Internship 2020"
             projectImg={shopifySplashScreen}
             projectLink="/proj1"
-          />
+          /> */}
           <ProjectCard
             projectName="Dropwatch"
             projectImg={dropWatchSplashScreen}
