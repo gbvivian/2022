@@ -20,8 +20,7 @@ export default function Navbar() {
 				</div>
 
 				<div className="w-full block flex-grow lg:flex lg:flex-row-reverse lg:items-center lg:w-auto">
-					<a
-						href="/portfolio-2019/Resume-Vivian-Lam.pdf"
+					<a href="/portfolio-2019/Resume-Vivian-Lam.pdf"
 						className="block mt-4 md:mr-8 lg:inline-block lg:mt-0 hover:text-gray-500"
 					>
 						Resume
