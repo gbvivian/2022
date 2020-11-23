@@ -5,8 +5,7 @@ const ProjectCard = props => {
   return (
     <React.Fragment>
       <div className="w-full sm:w-5/12 m-10 sm:m-6 md:m-15 lg:m-12 overflow-hidden">
-        {/* <Link to="https://medium.com/@gbvivian/dropwatch-bc799f144292"> */}
-        <a href="https://medium.com/@gbvivian/dropwatch-bc799f144292">
+        <a href={props.projectLink}>
           <div className="image">
             <img
               className="w-full"
