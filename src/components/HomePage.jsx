@@ -34,7 +34,7 @@ const HomePage = () => {
           <ProjectCard
             projectName="Shop Pay"
             projectImg={shopPayThumbnail}
-            projectLink="https://gbvivian.medium.com/shop-pay-login-and-account-recovery-798ac3b971fb"
+            projectLink="https://gbvivian.medium.com/shop-pay-4fb5617a9db5"
           />
           <ProjectCard
             projectName="Atomic Loans"
