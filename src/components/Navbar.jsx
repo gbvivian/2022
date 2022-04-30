@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
 	return (
 		<React.Fragment>
-			<nav className="flex items-center justify-between flex-wrap p-6 text-gray-900">
+			<nav>
 				<div className="flex items-center flex-shrink-0 mr-6">
 					<Link to="/">
 						<span className="font-semibold text-2xl tracking-tight md:ml-8">Vivian Lam</span>
