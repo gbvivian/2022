@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import atomicLoansThumbnail from '../assets/atomic-loans/thumbnail_atomic_loans.png';
+import chimney from '../assets/chimney/thumbnail_chimney.png';
 import shopifySplashScreen from '../assets/project1/shopify_splash_screen.png';
 import dropWatchSplashScreen from '../assets/project2/dropwatch_splash_screen.png';
 import sonicThumbnail from '../assets/sonic/thumbnail_sonic.png';
@@ -20,11 +21,11 @@ const HomePage = () => {
           </div>
         </div>
         <div className="flex flex-wrap justify-center">
-          {/* <ProjectCard
-            projectName="Shopify Internship 2020"
-            projectImg={shopifySplashScreen}
-            projectLink="/proj1"
-          /> */}
+          <ProjectCard
+            projectName="Chimney.ai"
+            projectImg={chimney}
+            projectLink="https://gbvivian.medium.com/chimney-ai-a1872aa1b8db"
+          />
           <ProjectCard
             projectName="Shopify Web Performance"
             projectImg={sonicThumbnail}
