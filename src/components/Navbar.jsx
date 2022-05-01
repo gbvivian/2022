@@ -4,31 +4,30 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
 	return (
 		<React.Fragment>
-			<nav>
-				<div className="flex items-center flex-shrink-0 mr-6">
+			<nav className='w-full flex justify-between'>
+				{/* <div className="flex items-center flex-shrink-0 mr-6"> */}
 					<Link to="/">
-						<span className="font-semibold text-2xl tracking-tight md:ml-8">Vivian Lam</span>
+						<span className="font-semibold text-2xl">Vivian Lam</span>
 					</Link>
-				</div>
-				<div className="block lg:hidden">
-					<button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-						<svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-							<title>Menu</title>
-							<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-						</svg>
-					</button>
-				</div>
+				{/* </div> */}
 
-				<div className="w-full block flex-grow lg:flex lg:flex-row-reverse lg:items-center lg:w-auto">
-					<a href="/portfolio-2019/Resume-Vivian-Lam.pdf"
-						className="block mt-4 md:mr-8 lg:inline-block lg:mt-0 hover:text-gray-500"
-					>
-						Resume
-					</a>
-					<Link to="/about" className="block mt-4 mr-4 lg:inline-block lg:mt-0 hover:text-gray-500">
+				<div>
+
+
+<div style={{paddingTop: "6px"}}>
+<div className="inline mr-4">
+					<Link to="/about" className="block row-reverse lg:inline-block lg:mt-0 hover:text-gray-500">
 						About
 					</Link>
+					</div>
+
+					<a href="/portfolio-2019/Resume-Vivian-Lam.pdf"
+						className="block lg:inline-block lg:mt-0 hover:text-gray-500">
+						Resume
+					</a>
+					</div>
 				</div>
+					
 			</nav>
 		</React.Fragment>
 	);

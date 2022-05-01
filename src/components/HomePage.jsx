@@ -14,12 +14,14 @@ const HomePage = () => {
   return (
     <React.Fragment>
       <div className='flow-root'>
-          <div className="text-2xl">
-              Hi! My name is Vivian🌻 I'm a product designer who loves to ideate and develop for all audiences. I study Cognitive
-            Systems and Computer Science at UBC.
+          <div className="flex mx-40 mt-20">
+            <div className="text-2xl">
+                Hi! My name is Vivian🌻 I'm a product designer who loves to ideate and develop for all audiences. I study Cognitive
+              Systems and Computer Science at UBC.
+            </div>
           </div>
 
-          <div className="flex mx-40 mt-20">
+          <div className="flex mx-40 mt-20 ">
             <div className="w-1/2 mr-16">
               <ProjectCard
                 projectName="Chimney.ai"

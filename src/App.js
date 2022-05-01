@@ -111,8 +111,10 @@ function App() {
 
   return (
     <Router basename="/">
-      <div id="app">
+     <div id="app">
+      <div className='flex mx-40 mt-20'>
         <Navbar />
+      </div>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/proj1" component={Project1Page} />
         <Route exact path="/proj2" component={Project2Page} />
