@@ -16,9 +16,9 @@ export default function Navbar() {
 
 <div style={{paddingTop: "6px"}}>
 <div className="inline mr-4">
-					<Link to="/about" className="block row-reverse lg:inline-block lg:mt-0 hover:text-gray-500">
+					{/* <Link to="/about" className="block row-reverse lg:inline-block lg:mt-0 hover:text-gray-500">
 						About
-					</Link>
+					</Link> */}
 					</div>
 
 					<a href="/portfolio-2019/Resume-Vivian-Lam.pdf"

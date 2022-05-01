@@ -16,87 +16,6 @@ import Navbar from './components/Navbar';
 
 import HomePage from './components/HomePage';
 
-function Meow() {
-  return (
-    <React.Fragment>
-      <h1>meow</h1>
-    </React.Fragment>
-  );
-}
-
-function DemoCard1() {
-  return (
-    <React.Fragment>
-      <Card>
-        <CardActionArea>
-          <CardMedia
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="Contemplative Reptile"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Lizard
-            </Typography>
-            <Typography component="p">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button size="small" color="primary">
-            Learn More
-          </Button>
-        </CardActions>
-      </Card>
-    </React.Fragment>
-  );
-}
-
-function DemoCard2() {
-  return (
-    <React.Fragment>
-      <Card>
-        <CardActionArea>
-          <CardMedia
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="Contemplative Reptile"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Lizard
-            </Typography>
-            <Typography component="p">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Link to="/home">Project 1</Link>
-        </CardActions>
-      </Card>
-    </React.Fragment>
-  );
-}
-
-function renderProjectCards() {
-  return (
-    <React.Fragment>
-      <Grid container spacing={24} justify="center" alignItems="center">
-        {Navbar()}
-        <Grid item xs={6}>
-          {DemoCard1()}
-        </Grid>
-
-        <Grid item xs={6}>
-          {DemoCard2()}
-        </Grid>
-      </Grid>
-    </React.Fragment>
-  );
-}
-
 function App() {
   const BrowserRouter = require('react-router-dom').BrowserRouter;
   const Route = require('react-router-dom').Route;
@@ -112,14 +31,16 @@ function App() {
   return (
     <Router basename="/">
      <div id="app">
-      <div className='flex mx-40 mt-20'>
+      <div className='mx-10 mt-20 md:mx-20 lg:mx-40'>
+        <div className='flex'>
         <Navbar />
-      </div>
+        </div>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/proj1" component={Project1Page} />
         <Route exact path="/proj2" component={Project2Page} />
 
         <Route exact path="/about" component={() => <div>About</div>} />
+      </div>
       </div>
     </Router>
   );
