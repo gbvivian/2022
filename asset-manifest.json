@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/2022/static/css/main.a9fac745.chunk.css",
-    "main.js": "/2022/static/js/main.09994345.chunk.js",
-    "main.js.map": "/2022/static/js/main.09994345.chunk.js.map",
+    "main.js": "/2022/static/js/main.b68a31bf.chunk.js",
+    "main.js.map": "/2022/static/js/main.b68a31bf.chunk.js.map",
     "runtime-main.js": "/2022/static/js/runtime-main.ca5a6dab.js",
     "runtime-main.js.map": "/2022/static/js/runtime-main.ca5a6dab.js.map",
-    "static/js/2.d53c0a0a.chunk.js": "/2022/static/js/2.d53c0a0a.chunk.js",
-    "static/js/2.d53c0a0a.chunk.js.map": "/2022/static/js/2.d53c0a0a.chunk.js.map",
+    "static/js/2.e35c6415.chunk.js": "/2022/static/js/2.e35c6415.chunk.js",
+    "static/js/2.e35c6415.chunk.js.map": "/2022/static/js/2.e35c6415.chunk.js.map",
     "index.html": "/2022/index.html",
-    "precache-manifest.903810ddbfc849ea0cdda8f5a16d3f6d.js": "/2022/precache-manifest.903810ddbfc849ea0cdda8f5a16d3f6d.js",
+    "precache-manifest.98635339fb529850c25f767cabe065e3.js": "/2022/precache-manifest.98635339fb529850c25f767cabe065e3.js",
     "service-worker.js": "/2022/service-worker.js",
     "static/css/main.a9fac745.chunk.css.map": "/2022/static/css/main.a9fac745.chunk.css.map",
-    "static/js/2.d53c0a0a.chunk.js.LICENSE": "/2022/static/js/2.d53c0a0a.chunk.js.LICENSE",
+    "static/js/2.e35c6415.chunk.js.LICENSE": "/2022/static/js/2.e35c6415.chunk.js.LICENSE",
     "static/media/Project1_Img.jpg": "/2022/static/media/Project1_Img.b2f1f031.jpg",
     "static/media/challenge.png": "/2022/static/media/challenge.1060fbc9.png",
     "static/media/discount_refactor_demo.gif": "/2022/static/media/discount_refactor_demo.268a1792.gif",
@@ -19,6 +19,7 @@
     "static/media/home_page.png": "/2022/static/media/home_page.4d915217.png",
     "static/media/notif_lockscreen.png": "/2022/static/media/notif_lockscreen.1b9df695.png",
     "static/media/product_feature.png": "/2022/static/media/product_feature.82c3bcf3.png",
+    "static/media/resume.pdf": "/2022/static/media/resume.7ca59e13.pdf",
     "static/media/shopify_splash_screen.png": "/2022/static/media/shopify_splash_screen.b9e5bf0e.png",
     "static/media/thumbnail_atomic_loans.png": "/2022/static/media/thumbnail_atomic_loans.829e0bb4.png",
     "static/media/thumbnail_chimney.png": "/2022/static/media/thumbnail_chimney.45443ba5.png",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ca5a6dab.js",
-    "static/js/2.d53c0a0a.chunk.js",
+    "static/js/2.e35c6415.chunk.js",
     "static/css/main.a9fac745.chunk.css",
-    "static/js/main.09994345.chunk.js"
+    "static/js/main.b68a31bf.chunk.js"
   ]
 }
