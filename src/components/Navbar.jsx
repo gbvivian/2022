@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Resume from '../assets/resume.pdf';
 
 export default function Navbar() {
 	return (
@@ -21,7 +22,7 @@ export default function Navbar() {
 					</Link> */}
 					</div>
 
-					<a href="/portfolio-2019/Resume-Vivian-Lam.pdf"
+					<a href={Resume}
 						className="block lg:inline-block lg:mt-0 hover:text-gray-500">
 						Resume
 					</a>
