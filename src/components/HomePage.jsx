@@ -2,14 +2,8 @@ import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import atomicLoansThumbnail from '../assets/atomic-loans/thumbnail_atomic_loans.png';
 import chimney from '../assets/chimney/thumbnail_chimney.png';
-import shopifySplashScreen from '../assets/project1/shopify_splash_screen.png';
-import dropWatchSplashScreen from '../assets/project2/dropwatch_splash_screen.png';
 import shopPayThumbnail from '../assets/shop-pay/thumbnail_shop_pay.png';
 import sonicThumbnail from '../assets/sonic/thumbnail_sonic.png';
-
-
-
-// import designChallengeSplashScreen from '../assets/project3/design_challenge_splash_screen.png';
 
 const HomePage = () => {
   return (
@@ -20,7 +14,7 @@ const HomePage = () => {
             </div> */}
 
             <div className="text-4xl mt-16 mb-12">
-                <b>Hi, I'm Vivian! 🌼</b>
+              <b>Hi, my name is Vivian! 🌼</b>
             </div>
                 <div className="text-2xl mt-4" style={{ maxWidth: '745px' }}>
                   Currently a designer at <span className="font-semibold">Shopify</span> and <span className="font-semibold">Chimney.ai</span>. In the past, I've worked as a developer at <span className="font-semibold">Shopify</span>, <span className="font-semibold">Motion Metrics</span> and <span className="font-semibold">IA Financial Group</span>.
