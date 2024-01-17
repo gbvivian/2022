@@ -24,7 +24,7 @@ const HomePage = () => {
           Currently a designer at <span className="font-semibold">Shopify</span>{' '}
           and <span className="font-semibold">Chimney.ai</span>. In the past,
           I've worked as a developer at{' '}
-          <span className="font-semibold">Shopify</span>,{' '}
+          <span className="bold-text">Shopify</span>,{' '}
           <span className="font-semibold">Motion Metrics</span> and{' '}
           <span className="font-semibold">IA Financial Group</span>.
         </div>
