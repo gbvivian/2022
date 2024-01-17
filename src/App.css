@@ -36,6 +36,7 @@ html,
 body {
   background-color: black;
   color: white;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   min-height: 100%;
 }
 
