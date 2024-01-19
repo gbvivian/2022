@@ -85,7 +85,7 @@ const HomePage = () => {
           className="grid
                           mt-5
                           xl:grid-cols-3 gap-x-8 gap-y-2
-                          md:grid-cols-2 gap-8"
+                          md:grid-cols-1 gap-y-5"
         >
           {/* QUOTE 1 */}
           {/* grey background, border radius 30px, padding 32px */}
