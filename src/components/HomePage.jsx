@@ -120,7 +120,7 @@ const HomePage = () => {
 
           {/* QUOTE 3 */}
           {/* grey background, border radius 30px, padding 32px */}
-          <div className="bg-[#0C0C0C]f rounded-3xl p-8">
+          <div className="bg-[#0C0C0C] rounded-3xl p-8">
             <div>
               <QuoteProfile
                 quoteImg={cm}
