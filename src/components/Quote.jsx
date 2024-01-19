@@ -3,13 +3,14 @@ import React from 'react';
 const QuoteProfile = (props) => {
   return (
     <React.Fragment>
-      <img className="float-left" src={props.quoteImg} alt="Image" />
+      <div className="flex items-center gap-x-5">
+        <img className="max-w-[70px]" src={props.quoteImg} alt="Image" />
 
-      <span className="inline-block align-bottom">
-        <p className="font-bold">{props.name}</p>
-      </span>
-
-      <div>{props.title}</div>
+        <span>
+          <p className="text-[#EEEEEE] font-bold">{props.name}</p>
+          <div className="text-[#ADADAD]">{props.title}</div>
+        </span>
+      </div>
     </React.Fragment>
   );
 };

@@ -12,6 +12,8 @@ import rs from '../assets/quotes/rs.png';
 import cm from '../assets/quotes/cm.png';
 
 import DTQuote from './DTQuote';
+import RSQuote from './RSQuote';
+import CMQuote from './CMQuote';
 
 const HomePage = () => {
   return (
@@ -86,7 +88,8 @@ const HomePage = () => {
                           md:grid-cols-2 gap-8"
         >
           {/* QUOTE 1 */}
-          <div>
+          {/* grey background, border radius 30px, padding 32px */}
+          <div className="bg-neutral-950 rounded-3xl p-8">
             <div>
               <QuoteProfile
                 quoteImg={dt}
@@ -94,11 +97,15 @@ const HomePage = () => {
                 title={'Staff Product Designer, Shopify'}
               />
             </div>
-            <DTQuote />
+
+            <div className="mt-6">
+              <DTQuote />
+            </div>
           </div>
 
           {/* QUOTE 2 */}
-          <div>
+          {/* grey background, border radius 30px, padding 32px */}
+          <div className="bg-[#0C0C0C] rounded-3xl p-8">
             <div>
               <QuoteProfile
                 quoteImg={rs}
@@ -106,34 +113,14 @@ const HomePage = () => {
                 title={'Senior Data Scientist, Shopify'}
               />
             </div>
-
-            <div className="mt-6 text-[#C6C6C6]">
-              I had the pleasure on working with Vivian on numerous projects.
-              <div className="mt-6">
-                She is an{' '}
-                <span className="font-semibold">
-                  incredibly effective collaborator-
-                </span>
-                <span className="font-semibold">
-                  she is highly communicative, very detail oriented,{' '}
-                </span>{' '}
-                and produces the highest quality work.
-              </div>
-              <div className="mt-6">
-                On numerous occasions,{' '}
-                <span className="font-semibold">
-                  she encountered roadblocks{' '}
-                </span>
-                and was able to{' '}
-                <span className="font-semibold">
-                  solution around those hurdles.
-                </span>
-              </div>
+            <div className="mt-6">
+              <RSQuote />
             </div>
           </div>
 
           {/* QUOTE 3 */}
-          <div>
+          {/* grey background, border radius 30px, padding 32px */}
+          <div className="bg-[#0C0C0C]f rounded-3xl p-8">
             <div>
               <QuoteProfile
                 quoteImg={cm}
@@ -142,20 +129,7 @@ const HomePage = () => {
               />
             </div>
 
-            <div className="mt-6 text-[#C6C6C6]">
-              <div className="mt-6">
-                Vivian possesses a multitude of talents in her UX toolkit, from{' '}
-                <span className="font-semibold">
-                  research and prototyping to moderating and beyond.
-                </span>
-              </div>
-              <div className="mt-6">
-                She is a
-                <span className="font-semibold">multi-faceted designer</span>{' '}
-                who will undoubtedly bring instant value to any team lucky
-                enough to have her on board.
-              </div>
-            </div>
+            <CMQuote />
           </div>
         </div>
       </div>
