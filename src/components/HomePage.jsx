@@ -14,6 +14,7 @@ import cm from '../assets/quotes/cm.png';
 import DTQuote from './DTQuote';
 import RSQuote from './RSQuote';
 import CMQuote from './CMQuote';
+import Footer from './Footer';
 
 const HomePage = () => {
   return (
@@ -133,6 +134,16 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+
+      <div className="mt-24"></div>
+
+      {/* FOOTER*/}
+      <div className="mt-22">
+        <Footer></Footer>
+      </div>
+      <div className="text-[#6A6A6A] mt-8">Copyright © 2024 Vivian Lam</div>
+      <div className="mt-12"></div>
+      <br />
     </React.Fragment>
   );
 };
