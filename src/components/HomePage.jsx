@@ -7,6 +7,9 @@ import shopPayThumbnail from '../assets/shop-pay/2024_Shop_Pay_Thumbnail.png';
 import shopifyBulkEditorThumbnail from '../assets/shopify-bulk-editor/2024_BE_Shopify_thumbnail.png';
 import sonicThumbnail from '../assets/sonic/2024_Web_Performance_Thumbnail.png';
 
+import BoldText from './BoldText';
+import GradientText from './GradientText';
+
 import dt from '../assets/quotes/dt.png';
 import rs from '../assets/quotes/rs.png';
 import cm from '../assets/quotes/cm.png';
@@ -28,15 +31,16 @@ const HomePage = () => {
 
         {/* 20px */}
         <div
-          className="text-zinc-400 text-xl mt-4"
+          className="text-[#C6C6C6] text-xl mt-4"
           style={{ maxWidth: '745px' }}
         >
-          Currently a designer at <span className="font-semibold">Shopify</span>{' '}
-          and <span className="font-semibold">Chimney.ai</span>. In the past,
-          I've worked as a developer at{' '}
-          <span className="bold-text">Shopify</span>,{' '}
-          <span className="font-semibold">Motion Metrics</span> and{' '}
-          <span className="font-semibold">IA Financial Group</span>.
+          Data-driven product designer who loves to <BoldText t="collaborate" />{' '}
+          with others.
+          <div>
+            In the past, I've worked as a developer at <BoldText t="Shopify," />{' '}
+            <BoldText t="Motion Metrics," /> and{' '}
+            <BoldText t="IA Financial Group." />
+          </div>
         </div>
 
         <div className="font-bold text-2xl mt-16">WORK</div>
@@ -49,32 +53,35 @@ const HomePage = () => {
                           md:grid-cols-2 gap-8"
         >
           <div>
-            <ProjectCard projectImg={shopifyBulkEditorThumbnail} />
+            <ProjectCard
+              projectImg={shopifyBulkEditorThumbnail}
+              projectLink="https://gbvivian.medium.com/shopify-bulk-editor-errors-b9ad53774877"
+            />
           </div>
           <div>
             <ProjectCard
               projectImg={chimneyThumbnail}
-              projectLink="https://gbvivian.medium.com/chimney-ai-a1872aa1b8db"
+              projectLink="https://gbvivian.medium.com/chimney-ai-ca7449437469"
             />
           </div>
           <div>
             <ProjectCard
               projectImg={sonicThumbnail}
-              projectLink="https://gbvivian.medium.com/shopify-web-performance-report-cb240373a6ed"
+              projectLink="https://medium.com/@gbvivian/shopify-web-performance-report-978145c86e2b"
             />
           </div>
 
           <div>
             <ProjectCard
               projectImg={shopPayThumbnail}
-              projectLink="https://gbvivian.medium.com/shop-pay-4fb5617a9db5"
+              projectLink="https://gbvivian.medium.com/shop-pay-ad1f6e2a9acd"
             />
           </div>
 
           <div>
             <ProjectCard
               projectImg={atomicLoansThumbnail}
-              projectLink="https://gbvivian.medium.com/atomic-loans-landing-page-c8b7bd1829ac"
+              projectLink="https://gbvivian.medium.com/atomic-finance-landing-page-69faa146d129"
             />
           </div>
         </div>
