@@ -31,7 +31,7 @@ const HomePage = () => {
 
         {/* 20px */}
         <div
-          className="text-[#C6C6C6] text-xl mt-4"
+          className="text-[#C6C6C6] text-l mt-4"
           style={{ maxWidth: '745px' }}
         >
           Data-driven product designer who loves to <BoldText t="collaborate" />{' '}
