@@ -34,8 +34,19 @@ const HomePage = () => {
           className="text-[#C6C6C6] text-l mt-4"
           style={{ maxWidth: '745px' }}
         >
-          Data-driven product designer who loves to <BoldText t="collaborate" />{' '}
-          with others.
+          <div>
+            Data-driven product designer who loves to{' '}
+            <BoldText t="collaborate" /> with others.
+          </div>
+
+          <br></br>
+          <div>
+            Previously at <BoldText t="Shopify." /> Also experienced in startup
+            environments, working in <BoldText t="cryptocurrency" /> and{' '}
+            <BoldText t="real-estate" /> sectors at <BoldText t="Chimney.ai" />{' '}
+            and <BoldText t="Atomic.Finance." />
+          </div>
+          <br></br>
           <div>
             In the past, I've worked as a developer at <BoldText t="Shopify," />{' '}
             <BoldText t="Motion Metrics," /> and{' '}
